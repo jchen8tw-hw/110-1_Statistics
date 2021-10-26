@@ -213,7 +213,7 @@ var(scale(pizza$time))[1]
 ### v.
 
 ``` r
-boxplot(pizza$time,range=0)
+boxplot(pizza$time,outline=FALSE)
 ```
 
 ![](assignment_01_files/figure-markdown_github/unnamed-chunk-12-1.png)

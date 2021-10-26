@@ -108,7 +108,7 @@ var(scale(pizza$time))[1]
 ### v.
 
 ```{r}
-boxplot(pizza$time,range=0)
+boxplot(pizza$time,outline=FALSE)
 ```
 
 ### vi.
