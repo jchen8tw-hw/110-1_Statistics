@@ -77,10 +77,10 @@ print(c(F.head(30),F.head(45),F.head(60)))
 ``` r
 f.head <- density(time.until.score, kernel="rectangular",bw = 10)
 # n is default to 512
-print(c(f.head$y[30],f.head$y[45],f.head$y[60]))
+print(c(f.head$y[sum(f.head$x <=30)],f.head$y[sum(f.head$x <=45)],f.head$y[sum(f.head$x <=60)]))
 ```
 
-    ## [1] 0.000000000 0.001767399 0.003534798
+    ## [1] 0.015327027 0.011483594 0.007445935
 
 ### iii.
 
